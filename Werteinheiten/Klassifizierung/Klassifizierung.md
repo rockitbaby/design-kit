@@ -1,4 +1,4 @@
-
+![](Cover.png)
 
 ## Beschreibung
 Ein Tag ist ein Begriff, der einen Aspekt von Klassifizierung der dpa oder des Nutzers ausdrückt. Er hat eine visuelle Gestaltung; eigene Tags und die Tags der dpa sind  unterscheidbar
@@ -9,11 +9,14 @@ BSP: Dies ist eine *Eil*meldung aus dem Bereich *Politik*, es geht um einen *Pro
 
 Außerdem können sich Nutzerinnen mithilfe der Tags durch die Inhalte navigieren, da die Tags auch als Filter fungieren. (Kontextuelle Navigation)
 
+![](Scribble.png)
 
 ## Zukünftige Weiterentwicklung
 * Nicht nur Text in den Tags, sondern auch Icons
 * Erstellung eigener Tags
 
+
+![](States.png)
 
 ## Ausprägung
 * Tag für Stichwort
@@ -21,6 +24,7 @@ Außerdem können sich Nutzerinnen mithilfe der Tags durch die Inhalte navigiere
 * Tag für Top-Thema
 * Nutzer-Tag
 
+![](Dimensioning.png)
 
 ## Kontext
 * innerhalb der Klassifizierung auf Karte in Agenda und select

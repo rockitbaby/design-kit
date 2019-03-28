@@ -1,3 +1,5 @@
+![](Cover.png)
+
 ## Beschreibung
 Grafik  ist ein Inhalt und damit eine journalistische Werteinheiten der dpa oder anderer Anbieter, sie ist Bestandteil eines Nachrichtenstücks. Eine Grafik wird zur Publikation oder zu Informationszwecken angeboten. 
 
@@ -6,6 +8,7 @@ Grafik  ist ein Inhalt und damit eine journalistische Werteinheiten der dpa oder
 * Grafik als Versprechen (geplant) und Foto manifest (gesendet) visuell unterschieden
 * Beschnitt unterschiedlich großer Grafiken
 
+![](Scribble.png)
 
 ## Ausprägung
 *  im Zustand des Versprechens (Planung), gesendet (manifestiert.)

@@ -1,0 +1,209 @@
+<!doctype html><html><head>
+    <title>DSK / dpa design kit for deployment: App</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/design-kit/css/prism.css">
+    <link rel="stylesheet" href="/design-kit/css/base.css">
+    <link rel="stylesheet" href="/design-kit/css/globals/typography.css">
+    <link rel="stylesheet" href="/design-kit/css/globals/spacing.css">
+    <link rel="stylesheet" href="/design-kit/css/components/children-table.css">
+    <link rel="stylesheet" href="/design-kit/css/components/doc-switcher.css">
+    <link rel="stylesheet" href="/design-kit/css/components/doc.css">
+    <link rel="stylesheet" href="/design-kit/css/components/search.css">
+    <link rel="stylesheet" href="/design-kit/css/components/tags.css">
+    <link rel="stylesheet" href="/design-kit/css/components/tree-nav.css">
+    <link rel="stylesheet" href="/design-kit/css/custom.css">
+    <script defer src="/js/dsk/Client.js"></script>
+    <script defer src="/js/dsk/Tree.js"></script>
+    <script defer src="/js/prism.js"></script>
+    <script defer src="/js/nav.js"></script>
+    <script defer src="/js/search.js"></script>
+    <script defer src="/js/page.js"></script>
+    <script defer src="/js/index.js"></script>
+    <link rel="icon" href="/ico/app.png">
+  </head>
+  <body>
+    <aside class="sidebar">
+      <header class="sidebar__header">
+        <div class="sidebar__title">
+          <a href="https://github.com/dpa-connect" target="new">dpa Connect</a> / <b><a class="project-name" href="/">dpa design kit for deployment</a></b>
+        </div>
+        <div class="search">
+          <div class="search__field-wrapper">
+            <input class="search__field" autofocus>
+            <div class="search__clear hide">×</div>
+          </div>
+          <div class="search__stats"> </div>
+        </div>
+      </header>
+      <nav class="tree-nav"><ul><li><a href="/design-kit/Grundlagen">Grundlagen</a><ul><li><a href="/design-kit/Grundlagen/Schriftart">Schriftart</a></li><li><a href="/design-kit/Grundlagen/Farben">Farben</a></li></ul></li><li><a href="/design-kit/Komponenten">Komponenten</a><ul><li><a href="/design-kit/Komponenten/Button">Button</a></li><li><a href="/design-kit/Komponenten/Dialog">Dialog</a></li><li><a href="/design-kit/Komponenten/dpa-ID-Anmelden">dpa ID Anmelden</a></li><li><a href="/design-kit/Komponenten/Formular">Formular</a></li><li><a href="/design-kit/Komponenten/dpa-ID-Hub-Overlay">dpa ID Hub Overlay</a></li></ul></li><li><a href="/design-kit/Akteure">Akteure</a><ul><li><a href="/design-kit/Akteure/Assistent">Assistent</a></li><li><a href="/design-kit/Akteure/Organisation">Organisation</a></li><li><a href="/design-kit/Akteure/Person">Person</a><ul><li><a href="/design-kit/Akteure/Person/Mitarbeiter">Mitarbeiter</a></li><li><a href="/design-kit/Akteure/Person/Nutzer">Nutzer</a></li></ul></li><li><a href="/design-kit/Akteure/Team">Team</a></li></ul></li><li><a href="/design-kit/Werteinheiten">Werteinheiten</a><ul><li class="is-active"><a href="/design-kit/Werteinheiten/App">App</a></li><li><a href="/design-kit/Werteinheiten/Audio">Audio</a></li><li><a href="/design-kit/Werteinheiten/Berichterstattung">Berichterstattung</a></li><li><a href="/design-kit/Werteinheiten/Filter">Filter</a></li><li><a href="/design-kit/Werteinheiten/Foto">Foto</a><ul><li><a href="/design-kit/Werteinheiten/Foto/Detailansicht">Detailansicht</a></li></ul></li><li><a href="/design-kit/Werteinheiten/Fotostrecke">Fotostrecke</a><ul><li><a href="/design-kit/Werteinheiten/Fotostrecke/Detailansicht">Detailansicht</a></li></ul></li><li><a href="/design-kit/Werteinheiten/Grafik">Grafik</a></li><li><a href="/design-kit/Werteinheiten/Hinweis">Hinweis</a></li><li><a href="/design-kit/Werteinheiten/Inhalt">Inhalt</a></li><li><a href="/design-kit/Werteinheiten/Klassifizierung">Klassifizierung</a></li><li><a href="/design-kit/Werteinheiten/Liste">Liste</a></li><li><a href="/design-kit/Werteinheiten/Mappe">Mappe</a></li><li><a href="/design-kit/Werteinheiten/Medienformat">Medienformat</a></li><li><a href="/design-kit/Werteinheiten/Meta-Info">Meta Info</a></li><li><a href="/design-kit/Werteinheiten/Nachrichtenstuck">Nachrichtenstück</a></li><li><a href="/design-kit/Werteinheiten/Notiz">Notiz</a></li><li><a href="/design-kit/Werteinheiten/Termin">Termin</a></li><li><a href="/design-kit/Werteinheiten/Text">Text</a><ul><li><a href="/design-kit/Werteinheiten/Text/Detailansicht">Detailansicht</a></li></ul></li><li><a href="/design-kit/Werteinheiten/Thema">Thema</a></li><li><a href="/design-kit/Werteinheiten/Version">Version</a></li><li><a href="/design-kit/Werteinheiten/Video">Video</a></li></ul></li><li><a href="/design-kit/Aktivitaten">Aktivitäten</a><ul><li><a href="/design-kit/Aktivitaten/Einfuhrung">Einführung</a></li><li><a href="/design-kit/Aktivitaten/Grammatik-und-Vokabular">Grammatik und Vokabular</a></li><li><a href="/design-kit/Aktivitaten/Passt-durch-Filter">Passt durch Filter</a></li><li><a href="/design-kit/Aktivitaten/Publizieren">Publizieren</a></li><li><a href="/design-kit/Aktivitaten/Teilen">Teilen</a></li><li><a href="/design-kit/Aktivitaten/Einladen">Einladen</a></li></ul></li><li><a href="/design-kit/Interaktionen">Interaktionen</a><ul><li><a href="/design-kit/Interaktionen/Anmelden-mit-dpa-ID">Anmelden mit dpa·ID</a></li><li><a href="/design-kit/Interaktionen/Erstmalige-Nutzung-mit-dpa-ID">Erstmalige Nutzung mit dpa·ID</a></li><li><a href="/design-kit/Interaktionen/Wiederholt-Relevantes-Finden">Wiederholt Relevantes Finden</a></li></ul></li><li><a href="/design-kit/Marketing">Marketing</a><ul><li><a href="/design-kit/Marketing/dpa-ID-Marke">dpa ID Marke</a></li><li><a href="/design-kit/Marketing/App-Icons">App Icons</a></li><li><a href="/design-kit/Marketing/App-Darstellung">App Darstellung</a></li></ul></li><li><a href="/design-kit/Connect-Design-Kit">Connect Design Kit</a><ul><li><a href="/design-kit/Connect-Design-Kit/Glossar">Glossar</a></li><li><a href="/design-kit/Connect-Design-Kit/Prozess">Prozess</a></li></ul></li></ul></nav>
+    </aside>
+    <div class="main-wrapper">
+      <main class="main"><section class="title-container"><ul class="crumbs t-gamma-sans"><li class="crumbs__crumb"><a href="/design-kit/Werteinheiten">Werteinheiten</a></li><li class="crumbs__crumb"><a href="/design-kit/Werteinheiten/App">App</a></li></ul><h1 class="title t-alpha-sans-bold">App</h1></section><section class="description-container"><section class="description t-beta-sans">Apps sind digitale Anwendungen von dpa oder anderen Anbietern, die dabei unterstützen die Aufgaben von Medien- und Kommunikationsprofis zu erledigen. Die Gesamtheit der Apps ergibt den Marktplatz.
+</section><ul class="tags t-delta-sans-bold"><li class="tags__tag"><a href="/design-kit/Werteinheiten/App?q=Anbieter">Anbieter</a></li><li class="tags__tag"><a href="/design-kit/Werteinheiten/App?q=Marktplatz">Marktplatz</a></li><li class="tags__tag"><a href="/design-kit/Werteinheiten/App?q=dpa">dpa</a></li><li class="tags__tag"><a href="/design-kit/Werteinheiten/App?q=impl:outdated">impl:outdated</a></li></ul></section><section class="tab-container"><section class="doc-switches"><a class="doc-switch active t-gamma-sans" href="#doc-0">App</a><a class="doc-switch t-gamma-sans" href="#doc-1">Api</a><a class="source__item doc-switch doc-switch--source" href="#source-code">Source</a></section></section><section class="meta-data-container"><h1 class="meta-data-container__title t-delta-sans-bold">Terminus</h1><p class="meta-data-container__info t-gamma-sans">App</p><h1 class="meta-data-container__title t-delta-sans-bold">Synonyme</h1><p class="meta-data-container__info t-gamma-sans">Anwendung, Applikation, Marktplatz, Service, Tool, digitale Ausspielfläche, digitales Produkt</p><h1 class="meta-data-container__title t-delta-sans-bold">letzte Änderung</h1><p class="meta-data-container__info t-gamma-sans">3/28/2019</p></section><section class="info"><section class="docs"><article class="doc" id="doc-0"><p><img src="/design-kit/Werteinheiten/App/app-cover.png" alt="" data-node="Werteinheiten/App" data-node-asset="app-cover.png" width="1480" height="920"></p>
+
+<h2>Beschreibung</h2>
+
+<p>Tools sind digitale Anwendungen wie Agenda, Schalttafel, Buzzrank, Zimpel, Shop (fka Kaufhalle), … die Aufgaben erledigen helfen wie Planung für eine Zeitung, Auswahl und Überführung von Material in ein CMS, Embed von Material, Verbreitung von Pressemitteilungen, …. Die Tools  sind mit einer <em>dpa-ID</em> erreichbar.</p>
+
+<p>Eigenständig, werden spezifischen Nutzungsbedürfnissen gerecht, setzen Werteinheiten und Akteure in Beziehung.</p>
+
+<p>Tools ermöglichen Arbeit mit den Werteinheiten der dpa: Entscheidung auf Basis von Inhalten, Publizieren von Inhalten</p>
+
+<h2>Skizze</h2>
+
+<p><img src="/design-kit/Werteinheiten/App/app-skizze.png" alt="" data-node="Werteinheiten/App" data-node-asset="app-skizze.png" width="1480" height="920"></p>
+
+<h2>Designbegründung</h2>
+
+<p>Tools habe eine visuelle Repräsentation, die sie als Teil von connect kenntlich macht, aber auch so unterscheidbar und unmissverständlich erscheinen lässt, dass der <em>Nutzer</em> schnell erkennen kann, welches Tool gemeint ist.</p>
+
+<p>Der Marktplatz besteht  Tools von dpa oder anderen Anbietern, zwischen denen der Nutzer sich einfach bewegen können soll um Exploration zu ermöglichen. Der Nutzer soll Orientierung bekommen, wo er sich gerade befindet.</p>
+
+<h2>Iterationsrichtung</h2>
+
+<ul>
+<li>Unterscheidbar</li>
+<li>Größe im Kontext</li>
+</ul>
+
+<h2>Ausprägung</h2>
+
+<ul>
+<li>Icon</li>
+<li>Schaltfläche</li>
+</ul>
+
+<h2>Kontext</h2>
+
+<ul>
+<li>in <em>Loginscreen</em> der Anwendungen</li>
+<li>im <em>App switcher</em></li>
+<li>in <em>Notifications</em></li>
+<li>in Suchergebnissen</li>
+<li>…</li>
+</ul>
+
+<h2>OOUX-Draft</h2>
+
+<p><em>Tool</em>
+Name</p>
+</article><article class="doc hide" id="doc-1"><h1>Example</h1>
+
+<pre><code>&#x3C;AppList>
+  &#x3C;App />
+  &#x3C;App />
+&#x3C;/AppList>
+</code></pre>
+
+<h1>Properties</h1>
+
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>image</code></td>
+<td>Idenity Image for the App</td>
+</tr>
+
+<tr>
+<td><code>name</code></td>
+<td>Name of the App</td>
+</tr>
+
+<tr>
+<td><code>uri</code></td>
+<td>URI of the App</td>
+</tr>
+</tbody>
+</table>
+
+<h1>AppList</h1>
+
+<ul>
+<li>apps</li>
+</ul>
+</article><article class="hide doc source__diy" id="source-code"><pre class="source__code language-json"><code class="language-json">{
+  "hash": "cd216bf91400e8c9175d83c9049a67e15f9fb85e",
+  "url": "Werteinheiten/App",
+  "parent": {
+    "url": "Werteinheiten",
+    "title": "Werteinheiten"
+  },
+  "children": [],
+  "title": "App",
+  "description": "Apps sind digitale Anwendungen von dpa oder anderen Anbietern, die dabei unterstützen die Aufgaben von Medien- und Kommunikationsprofis zu erledigen. Die Gesamtheit der Apps ergibt den Marktplatz.\n",
+  "term": "App",
+  "authors": [],
+  "modified": 1553789328,
+  "version": "",
+  "tags": [
+    "Anbieter",
+    "Marktplatz",
+    "dpa",
+    "impl:outdated"
+  ],
+  "synonyms": [
+    "Anwendung",
+    "Applikation",
+    "Marktplatz",
+    "Service",
+    "Tool",
+    "digitale Ausspielfläche",
+    "digitales Produkt"
+  ],
+  "docs": [
+    {
+      "title": "App",
+      "html": "&#x3C;p>&#x3C;img src=\"/api/v1/tree/Werteinheiten/App/app-cover.png\" alt=\"\" data-node=\"Werteinheiten/App\" data-node-asset=\"app-cover.png\" width=\"1480\" height=\"920\"/>&#x3C;/p>\n\n&#x3C;h2>Beschreibung&#x3C;/h2>\n\n&#x3C;p>Tools sind digitale Anwendungen wie Agenda, Schalttafel, Buzzrank, Zimpel, Shop (fka Kaufhalle), … die Aufgaben erledigen helfen wie Planung für eine Zeitung, Auswahl und Überführung von Material in ein CMS, Embed von Material, Verbreitung von Pressemitteilungen, …. Die Tools  sind mit einer &#x3C;em>dpa-ID&#x3C;/em> erreichbar.&#x3C;/p>\n\n&#x3C;p>Eigenständig, werden spezifischen Nutzungsbedürfnissen gerecht, setzen Werteinheiten und Akteure in Beziehung.&#x3C;/p>\n\n&#x3C;p>Tools ermöglichen Arbeit mit den Werteinheiten der dpa: Entscheidung auf Basis von Inhalten, Publizieren von Inhalten&#x3C;/p>\n\n&#x3C;h2>Skizze&#x3C;/h2>\n\n&#x3C;p>&#x3C;img src=\"/api/v1/tree/Werteinheiten/App/app-skizze.png\" alt=\"\" data-node=\"Werteinheiten/App\" data-node-asset=\"app-skizze.png\" width=\"1480\" height=\"920\"/>&#x3C;/p>\n\n&#x3C;h2>Designbegründung&#x3C;/h2>\n\n&#x3C;p>Tools habe eine visuelle Repräsentation, die sie als Teil von connect kenntlich macht, aber auch so unterscheidbar und unmissverständlich erscheinen lässt, dass der &#x3C;em>Nutzer&#x3C;/em> schnell erkennen kann, welches Tool gemeint ist.&#x3C;/p>\n\n&#x3C;p>Der Marktplatz besteht  Tools von dpa oder anderen Anbietern, zwischen denen der Nutzer sich einfach bewegen können soll um Exploration zu ermöglichen. Der Nutzer soll Orientierung bekommen, wo er sich gerade befindet.&#x3C;/p>\n\n&#x3C;h2>Iterationsrichtung&#x3C;/h2>\n\n&#x3C;ul>\n&#x3C;li>Unterscheidbar&#x3C;/li>\n&#x3C;li>Größe im Kontext&#x3C;/li>\n&#x3C;/ul>\n\n&#x3C;h2>Ausprägung&#x3C;/h2>\n\n&#x3C;ul>\n&#x3C;li>Icon&#x3C;/li>\n&#x3C;li>Schaltfläche&#x3C;/li>\n&#x3C;/ul>\n\n&#x3C;h2>Kontext&#x3C;/h2>\n\n&#x3C;ul>\n&#x3C;li>in &#x3C;em>Loginscreen&#x3C;/em> der Anwendungen&#x3C;/li>\n&#x3C;li>im &#x3C;em>App switcher&#x3C;/em>&#x3C;/li>\n&#x3C;li>in &#x3C;em>Notifications&#x3C;/em>&#x3C;/li>\n&#x3C;li>in Suchergebnissen&#x3C;/li>\n&#x3C;li>…&#x3C;/li>\n&#x3C;/ul>\n\n&#x3C;h2>OOUX-Draft&#x3C;/h2>\n\n&#x3C;p>&#x3C;em>Tool&#x3C;/em>\nName&#x3C;/p>\n",
+      "raw": "![](./app-cover.png)\n\n## Beschreibung\nTools sind digitale Anwendungen wie Agenda, Schalttafel, Buzzrank, Zimpel, Shop (fka Kaufhalle), … die Aufgaben erledigen helfen wie Planung für eine Zeitung, Auswahl und Überführung von Material in ein CMS, Embed von Material, Verbreitung von Pressemitteilungen, …. Die Tools  sind mit einer *dpa-ID* erreichbar.\n\nEigenständig, werden spezifischen Nutzungsbedürfnissen gerecht, setzen Werteinheiten und Akteure in Beziehung.\n\nTools ermöglichen Arbeit mit den Werteinheiten der dpa: Entscheidung auf Basis von Inhalten, Publizieren von Inhalten\n\n## Skizze\n![](./app-skizze.png)\n\n## Designbegründung\n\nTools habe eine visuelle Repräsentation, die sie als Teil von connect kenntlich macht, aber auch so unterscheidbar und unmissverständlich erscheinen lässt, dass der *Nutzer* schnell erkennen kann, welches Tool gemeint ist.\n\nDer Marktplatz besteht  Tools von dpa oder anderen Anbietern, zwischen denen der Nutzer sich einfach bewegen können soll um Exploration zu ermöglichen. Der Nutzer soll Orientierung bekommen, wo er sich gerade befindet.\n\n## Iterationsrichtung\n- Unterscheidbar\n- Größe im Kontext\n\n## Ausprägung\n\n- Icon\n- Schaltfläche\n\n\n## Kontext\n\n- in *Loginscreen* der Anwendungen\n- im *App switcher*\n- in *Notifications*\n- in Suchergebnissen\n- …\n\n## OOUX-Draft\n\n*Tool*\nName\n"
+    },
+    {
+      "title": "Api",
+      "html": "&#x3C;h1>Example&#x3C;/h1>\n\n&#x3C;pre>&#x3C;code>&#x26;lt;AppList&#x26;gt;\n  &#x26;lt;App /&#x26;gt;\n  &#x26;lt;App /&#x26;gt;\n&#x26;lt;/AppList&#x26;gt;\n&#x3C;/code>&#x3C;/pre>\n\n&#x3C;h1>Properties&#x3C;/h1>\n\n&#x3C;table>\n&#x3C;thead>\n&#x3C;tr>\n&#x3C;th>Property&#x3C;/th>\n&#x3C;th>Description&#x3C;/th>\n&#x3C;/tr>\n&#x3C;/thead>\n\n&#x3C;tbody>\n&#x3C;tr>\n&#x3C;td>&#x3C;code>image&#x3C;/code>&#x3C;/td>\n&#x3C;td>Idenity Image for the App&#x3C;/td>\n&#x3C;/tr>\n\n&#x3C;tr>\n&#x3C;td>&#x3C;code>name&#x3C;/code>&#x3C;/td>\n&#x3C;td>Name of the App&#x3C;/td>\n&#x3C;/tr>\n\n&#x3C;tr>\n&#x3C;td>&#x3C;code>uri&#x3C;/code>&#x3C;/td>\n&#x3C;td>URI of the App&#x3C;/td>\n&#x3C;/tr>\n&#x3C;/tbody>\n&#x3C;/table>\n\n&#x3C;h1>AppList&#x3C;/h1>\n\n&#x3C;ul>\n&#x3C;li>apps&#x3C;/li>\n&#x3C;/ul>\n",
+      "raw": "# Example\n\n```\n&#x3C;AppList>\n  &#x3C;App />\n  &#x3C;App />\n&#x3C;/AppList>\n```\n\n# Properties\n\nProperty | Description\n---|---\n`image` | Idenity Image for the App\n`name` | Name of the App\n`uri` | URI of the App\n\n# AppList\n\n- apps"
+    }
+  ],
+  "downloads": [
+    {
+      "url": "Werteinheiten/App/app-cover.png",
+      "name": "app-cover.png",
+      "modified": 1553630362,
+      "size": 45837
+    },
+    {
+      "url": "Werteinheiten/App/app-skizze.png",
+      "name": "app-skizze.png",
+      "modified": 1553630368,
+      "size": 75732
+    }
+  ],
+  "crumbs": [
+    {
+      "url": "Werteinheiten",
+      "title": "Werteinheiten"
+    },
+    {
+      "url": "Werteinheiten/App",
+      "title": "App"
+    }
+  ],
+  "related": [],
+  "prev": {
+    "url": "Werteinheiten",
+    "title": "Werteinheiten"
+  },
+  "next": {
+    "url": "Werteinheiten/Audio",
+    "title": "Audio"
+  }
+}</code></pre><a href="https://github.com/atelierdisko/dsk/tree/master#building-your-own-frontend" target="new">Build your own frontend</a></article></section></section><aside class="downloads"><h1 class="downloads__headline t-delta-sans-bold">assets</h1><ul><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Werteinheiten/App/app-cover.png"><div class="downloads__item-title">app-cover.png</div><p class="downloads__item-info t-gamma-sans">0.45 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Werteinheiten/App/app-skizze.png"><div class="downloads__item-title">app-skizze.png</div><p class="downloads__item-info t-gamma-sans">0.74 MB — 1/19/1970</p></a></li></ul></aside></main>
+    </div>
+  
+
+</body></html>

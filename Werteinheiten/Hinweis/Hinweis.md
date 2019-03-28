@@ -1,3 +1,5 @@
+![](./Cover.png)
+
 ## Beschreibung
 Mit Hilfe der von dpa oder Fremdanbietern gelieferten Hinweise zu Terminen und Themen sind Nutzer in der Lage zu planen, was sie in Zukunft publizieren oder bearbeiten wollen.
 
@@ -5,12 +7,11 @@ Zu einem Hinweis gehören verschiede Werteinheiten, die eine visuelle Gestaltung
 
 Autor, kann eine Person, eine Team oder eine Organisation sein - wer gibt den Hinweis auf den Termin oder das Thema
 
-Klassifizierung - wie ordnet dpa den Termin oder das Thema ein?
+- Klassifizierung - wie ordnet dpa den Termin oder das Thema ein?
+- Termin / Thema - der Termin oder das Thema
+- Berichterstattung (intended/fulfilled) - wird dpa berichten und in welchem Ausmaß?
 
-Termin / Thema - der Termin oder das Thema
-
-Berichterstattung (intended/fulfilled) - wird dpa berichten und in welchem Ausmaß?
-
+![](./Spezifikation.png)
 
 ## Zukünftige Weiterentwicklung
 * Hinweise mit Werteinheiten von fremden Dritten

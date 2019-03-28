@@ -1,7 +1,7 @@
 title: Klassifizierung
 description: >
-  Tags transportieren Stichworte, Geostichworte, Prioritäten, Ressorts, die zusammen die *Klassifizierung* von dpa-Inhalten bilden. Tags können seitens der dpa vorgegebene Begriffe, aber auch vom Nutzer freigewählte Begriffe sein.
-term: Klassifizierung
+  Die Klassifizierung transportiert Stichworte, Geostichworte, Prioritäten, Ressorts in Form von Tags. Tags können seitens der dpa vorgegebene Begriffe, aber auch vom Nutzer freigewählte Begriffe sein.
+term: Classification
 tags:
   - Klassifizierung
   - dpa

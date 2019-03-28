@@ -74,7 +74,7 @@ dpa | publiziert | Termin | Filter, Agenda
 
 Eine Person (Actor) teilt (Action) einen interessanten Termin (Object) mit einem Kollegen (Consumer).
 
-- Für den Kollegendwird diese Aktivität sichtbar (es sei der die Person, die den Termin teilt steht auf seine Blackliste)
+- Für den Kollegen wird diese Aktivität sichtbar (es sei denn, die Person, die den Termin teilt steht auf seiner Blackliste)
 
 Akteur | Aktion | Objekt | Consumer
 ---|---|---|---

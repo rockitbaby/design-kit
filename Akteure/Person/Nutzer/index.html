@@ -1,0 +1,338 @@
+<!doctype html><html><head>
+    <title>DSK / dpa design kit for deployment: Nutzer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/design-kit/css/prism.css">
+    <link rel="stylesheet" href="/design-kit/css/base.css">
+    <link rel="stylesheet" href="/design-kit/css/globals/typography.css">
+    <link rel="stylesheet" href="/design-kit/css/globals/spacing.css">
+    <link rel="stylesheet" href="/design-kit/css/components/children-table.css">
+    <link rel="stylesheet" href="/design-kit/css/components/doc-switcher.css">
+    <link rel="stylesheet" href="/design-kit/css/components/doc.css">
+    <link rel="stylesheet" href="/design-kit/css/components/search.css">
+    <link rel="stylesheet" href="/design-kit/css/components/tags.css">
+    <link rel="stylesheet" href="/design-kit/css/components/tree-nav.css">
+    <link rel="stylesheet" href="/design-kit/css/custom.css">
+    <script defer src="/js/dsk/Client.js"></script>
+    <script defer src="/js/dsk/Tree.js"></script>
+    <script defer src="/js/prism.js"></script>
+    <script defer src="/js/nav.js"></script>
+    <script defer src="/js/search.js"></script>
+    <script defer src="/js/page.js"></script>
+    <script defer src="/js/index.js"></script>
+    <link rel="icon" href="/ico/app.png">
+  </head>
+  <body>
+    <aside class="sidebar">
+      <header class="sidebar__header">
+        <div class="sidebar__title">
+          <a href="https://github.com/dpa-connect" target="new">dpa Connect</a> / <b><a class="project-name" href="/">dpa design kit for deployment</a></b>
+        </div>
+        <div class="search">
+          <div class="search__field-wrapper">
+            <input class="search__field" autofocus>
+            <div class="search__clear hide">×</div>
+          </div>
+          <div class="search__stats"> </div>
+        </div>
+      </header>
+      <nav class="tree-nav"><ul><li><a href="/design-kit/Grundlagen">Grundlagen</a><ul><li><a href="/design-kit/Grundlagen/Schriftart">Schriftart</a></li><li><a href="/design-kit/Grundlagen/Farben">Farben</a></li></ul></li><li><a href="/design-kit/Komponenten">Komponenten</a><ul><li><a href="/design-kit/Komponenten/Button">Button</a></li><li><a href="/design-kit/Komponenten/Dialog">Dialog</a></li><li><a href="/design-kit/Komponenten/dpa-ID-Anmelden">dpa ID Anmelden</a></li><li><a href="/design-kit/Komponenten/Formular">Formular</a></li><li><a href="/design-kit/Komponenten/dpa-ID-Hub-Overlay">dpa ID Hub Overlay</a></li></ul></li><li><a href="/design-kit/Akteure">Akteure</a><ul><li><a href="/design-kit/Akteure/Assistent">Assistent</a></li><li><a href="/design-kit/Akteure/Organisation">Organisation</a></li><li><a href="/design-kit/Akteure/Person">Person</a><ul><li><a href="/design-kit/Akteure/Person/Mitarbeiter">Mitarbeiter</a></li><li class="is-active"><a href="/design-kit/Akteure/Person/Nutzer">Nutzer</a></li></ul></li><li><a href="/design-kit/Akteure/Team">Team</a></li></ul></li><li><a href="/design-kit/Werteinheiten">Werteinheiten</a><ul><li><a href="/design-kit/Werteinheiten/App">App</a></li><li><a href="/design-kit/Werteinheiten/Audio">Audio</a></li><li><a href="/design-kit/Werteinheiten/Berichterstattung">Berichterstattung</a></li><li><a href="/design-kit/Werteinheiten/Filter">Filter</a></li><li><a href="/design-kit/Werteinheiten/Foto">Foto</a><ul><li><a href="/design-kit/Werteinheiten/Foto/Detailansicht">Detailansicht</a></li></ul></li><li><a href="/design-kit/Werteinheiten/Fotostrecke">Fotostrecke</a><ul><li><a href="/design-kit/Werteinheiten/Fotostrecke/Detailansicht">Detailansicht</a></li></ul></li><li><a href="/design-kit/Werteinheiten/Grafik">Grafik</a></li><li><a href="/design-kit/Werteinheiten/Hinweis">Hinweis</a></li><li><a href="/design-kit/Werteinheiten/Inhalt">Inhalt</a></li><li><a href="/design-kit/Werteinheiten/Klassifizierung">Klassifizierung</a></li><li><a href="/design-kit/Werteinheiten/Liste">Liste</a></li><li><a href="/design-kit/Werteinheiten/Mappe">Mappe</a></li><li><a href="/design-kit/Werteinheiten/Medienformat">Medienformat</a></li><li><a href="/design-kit/Werteinheiten/Meta-Info">Meta Info</a></li><li><a href="/design-kit/Werteinheiten/Nachrichtenstuck">Nachrichtenstück</a></li><li><a href="/design-kit/Werteinheiten/Notiz">Notiz</a></li><li><a href="/design-kit/Werteinheiten/Termin">Termin</a></li><li><a href="/design-kit/Werteinheiten/Text">Text</a><ul><li><a href="/design-kit/Werteinheiten/Text/Detailansicht">Detailansicht</a></li></ul></li><li><a href="/design-kit/Werteinheiten/Thema">Thema</a></li><li><a href="/design-kit/Werteinheiten/Version">Version</a></li><li><a href="/design-kit/Werteinheiten/Video">Video</a></li></ul></li><li><a href="/design-kit/Aktivitaten">Aktivitäten</a><ul><li><a href="/design-kit/Aktivitaten/Einfuhrung">Einführung</a></li><li><a href="/design-kit/Aktivitaten/Grammatik-und-Vokabular">Grammatik und Vokabular</a></li><li><a href="/design-kit/Aktivitaten/Passt-durch-Filter">Passt durch Filter</a></li><li><a href="/design-kit/Aktivitaten/Publizieren">Publizieren</a></li><li><a href="/design-kit/Aktivitaten/Teilen">Teilen</a></li><li><a href="/design-kit/Aktivitaten/Einladen">Einladen</a></li></ul></li><li><a href="/design-kit/Interaktionen">Interaktionen</a><ul><li><a href="/design-kit/Interaktionen/Anmelden-mit-dpa-ID">Anmelden mit dpa·ID</a></li><li><a href="/design-kit/Interaktionen/Erstmalige-Nutzung-mit-dpa-ID">Erstmalige Nutzung mit dpa·ID</a></li><li><a href="/design-kit/Interaktionen/Wiederholt-Relevantes-Finden">Wiederholt Relevantes Finden</a></li></ul></li><li><a href="/design-kit/Marketing">Marketing</a><ul><li><a href="/design-kit/Marketing/dpa-ID-Marke">dpa ID Marke</a></li><li><a href="/design-kit/Marketing/App-Icons">App Icons</a></li><li><a href="/design-kit/Marketing/App-Darstellung">App Darstellung</a></li></ul></li><li><a href="/design-kit/Connect-Design-Kit">Connect Design Kit</a><ul><li><a href="/design-kit/Connect-Design-Kit/Glossar">Glossar</a></li><li><a href="/design-kit/Connect-Design-Kit/Prozess">Prozess</a></li></ul></li></ul></nav>
+    </aside>
+    <div class="main-wrapper">
+      <main class="main"><section class="title-container"><ul class="crumbs t-gamma-sans"><li class="crumbs__crumb"><a href="/design-kit/Akteure">Akteure</a></li><li class="crumbs__crumb"><a href="/design-kit/Akteure/Person">Person</a></li><li class="crumbs__crumb"><a href="/design-kit/Akteure/Person/Nutzer">Nutzer</a></li></ul><h1 class="title t-alpha-sans-bold">Nutzer</h1></section><section class="description-container"><section class="description t-beta-sans">Der Nutzer ist eine Person, die  dpa- und Fremdtools nutzt. Der Nutzer ist Marktplatz-Teilnehmer.
+</section><ul class="tags t-delta-sans-bold"><li class="tags__tag"><a href="/design-kit/Akteure/Person/Nutzer?q=Akteur">Akteur</a></li><li class="tags__tag"><a href="/design-kit/Akteure/Person/Nutzer?q=dpa">dpa</a></li></ul></section><section class="tab-container"><section class="doc-switches"><a class="source__item doc-switch doc-switch--source" href="#source-code">Source</a></section></section><section class="meta-data-container"><h1 class="meta-data-container__title t-delta-sans-bold">Terminus</h1><p class="meta-data-container__info t-gamma-sans">User</p><h1 class="meta-data-container__title t-delta-sans-bold">Synonyme</h1><p class="meta-data-container__info t-gamma-sans">Akteur, Kundin, User</p><h1 class="meta-data-container__title t-delta-sans-bold">letzte Änderung</h1><p class="meta-data-container__info t-gamma-sans">3/27/2019</p></section><section class="info"><section class="docs"><article class="doc" id="doc-0"><dl>
+<dt><img src="/design-kit/Akteure/Person/Nutzer/nutzer.png" alt="" data-node="Akteure/Person/Nutzer" data-node-asset="nutzer.png" width="1480" height="920"></dt>
+</dl>
+
+<p>::: tip Iterationssrichtung</p>
+
+<ul>
+<li>Unterscheidung Nutzer nicht dpa / Nutzer dpa-Mitarbeiter</li>
+<li>Nutzer im Zusammenspiel mit Team</li>
+<li>Wenn kein Bild da ist, wie wird Nutzer unterscheidbar dargestellt werden (Hintergrundfarbe, generierte Patterns, …)
+:::</li>
+</ul>
+
+<h2>Beschreibung</h2>
+
+<p>Der Nutzer ist ein Medien- oder Kommunikationsprofi mit einer <a href="/design-kit/Akteure/Person/connect-design-kit/glossar.html#dpa%C2%B7id">dpa-ID</a>, der ein oder mehrere dpa-Tools oder andere über die dpa-ID erreichbare Tools nutzt.</p>
+
+<p>Der Nutzer verfügt über eine <strong>dpa-ID</strong>, d.h. eine Email und ein Passwort mit der er sich einloggen kann.  Der Nutzer
+ist eventuell Teil eines Teams. Der Nutzer hat ein Bild oder eine Repräsentanz mit Kürzel. Der Nutzer hat einen Namen.</p>
+
+<p>Der Nutzer ist in unterschiedlichen Rollen auf dem Marktplatz. Er ist als Person identifizierbar, damit er mit anderen identifizierbaren Personen, also Nutzern in Beziehung treten kann (Kommunizieren, Teilen, Kollaborieren) oder er kann mit Werteinheiten in Beziehung treten (kaufen, zum Kauf anbieten, Planen)</p>
+
+<h2>Skizze</h2>
+
+<p><img src="/design-kit/Akteure/Person/Nutzer/nutzer-skizze.png" alt="" data-node="Akteure/Person/Nutzer" data-node-asset="nutzer-skizze.png" width="1480" height="920"></p>
+
+<h2>Begründung für die Gestaltung</h2>
+
+<h3>Runde Form</h3>
+
+<p>Vorbild sind Twitter und Material Design. Insbesondere in Abgrenzung zu der eckigen Form von Tools, die auch als Farbe / Buchstabenkürzel vorliegen können</p>
+
+<h3>Punkt</h3>
+
+<p>Der Punkt signalisiert den Nutzer selbst, dass er sich mit der dpa ID angemeldet hat. Es ist nicht irgendein Nutzer, sondern ein Nutzer der dpa.</p>
+
+<p>Stichworte: Markenbildung, Branding für dpa·ID, Bezug zur dpa durch die Farbe grün</p>
+
+<h2>Ausprägung</h2>
+
+<p><cdk-preview title="Nutzer ohne Bild"></cdk-preview></p>
+
+<p><img src="/design-kit/Akteure/Person/Nutzer/nutzer-mit-kuerzel-auspraegung.png" alt="" data-node="Akteure/Person/Nutzer" data-node-asset="nutzer-mit-kuerzel-auspraegung.png" width="1480" height="1200"></p>
+
+<p>
+<cdk-preview title="Nutzer mit Bild"></cdk-preview></p>
+
+<p><img src="/design-kit/Akteure/Person/Nutzer/nutzer-mit-bild-auspraegung.png" alt="" data-node="Akteure/Person/Nutzer" data-node-asset="nutzer-mit-bild-auspraegung.png" width="1480" height="1200"></p>
+
+<p></p>
+
+<h2>Kontext</h2>
+
+<p><cdk-preview title="bei Login"></cdk-preview></p>
+
+<p><img src="/design-kit/Akteure/Person/Nutzer/nutzer-mit-bild-login.png" alt="" data-node="Akteure/Person/Nutzer" data-node-asset="nutzer-mit-bild-login.png" width="1480" height="920"></p>
+
+<p>
+<cdk-preview title="ich selbst eingeloggt"></cdk-preview></p>
+
+<p><img src="/design-kit/Akteure/Person/Nutzer/nutzer-mit-bild-loggedin.png" alt="" data-node="Akteure/Person/Nutzer" data-node-asset="nutzer-mit-bild-loggedin.png" width="1480" height="920"></p>
+
+<p></p>
+
+<p><cdk-preview title="in Kommunikation"></cdk-preview></p>
+
+<p><img src="/design-kit/Akteure/Person/Nutzer/nutzer-und-mitarbeiter-in-kommunikation.png" alt="" data-node="Akteure/Person/Nutzer" data-node-asset="nutzer-und-mitarbeiter-in-kommunikation.png" width="1480" height="920"></p>
+
+<p></p>
+
+<h2>Ressourcen</h2>
+
+<ul>
+<li><a href="https://share.goabstract.com/dcd88ea2-85bf-4365-b9ff-b44239a9e70b">Sketch-Datei in Abstract</a></li>
+</ul>
+
+<h2>OOUX-Draft</h2>
+
+<ul>
+<li><em>Nutzer</em></li>
+<li>Bild</li>
+<li>Kürzel</li>
+<li>Name</li>
+<li>Rolle/Titel</li>
+<li>Organisation</li>
+<li>Gehört zu einem oder mehreren Teams</li>
+<li>E-Mail / Passwort</li>
+</ul>
+
+<h2>Code</h2>
+
+<p>::: tip Proof of Concept
+Der Nutzer kann einfach als Web Komponente über CDN in
+bestehende Andwendungen eingebunden werden. Langfristig können Werteinheiten
+und Akteure von dpa-Connect als Module auf <a href="https://www.npmjs.com/~dpa-connect">npm</a>
+in Code bereit gestellt werden und von verschiedenen Applikationen konsumiert
+werden.
+:::</p>
+
+<h3>Einbindung als Web-Component</h3>
+
+<p>Als zukunftsgerichtete und standardisierte Technologie ist der Nutzer
+exemplarisch als <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">Web Component</a>
+umgesetzt.</p>
+
+<ul>
+<li><a href="https://dpa-connect.github.io/web-components-example/">Demo</a></li>
+<li><a href="https://github.com/dpa-connect/web-components-example/blob/master/index.html">Code</a></li>
+</ul>
+
+<hr>
+
+<p>Einbindung von des Codes über CDN.</p>
+
+<pre><code>&#x3C;script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js">&#x3C;/script>
+&#x3C;script src="https://unpkg.com/vue">&#x3C;/script>
+&#x3C;script src="https://unpkg.com/@dpa-connect/user@0.5.0/dist/cdk-user.min.js">&#x3C;/script>
+</code></pre>
+
+<h4>Eigenschaften</h4>
+
+<p>| Name | Typ | Standardwert | Beschreibung |
+| —- | —- | ——- | – |
+| src | String | “ | Pfad zu Nutzerbild |
+| abbr | String | ” | Kürzel |
+| size | Number | 48 | Größe in Pixel |
+| isDpa | Boolean | false | Ist dpa Mitarbeiter |
+| notifications | Number | | Anzahl der Benachrichtigungen |</p>
+
+<h4>Ausprägungen in Code</h4>
+
+<p>Standard</p>
+
+<p><cdk-user></cdk-user></p>
+
+<pre><code>&#x3C;cdk-user>&#x3C;/cdk-user>
+</code></pre>
+
+<p>Nutzer ist dpa Mitarbeiter</p>
+
+<p><cdk-user is-dpa="true"></cdk-user></p>
+
+<pre><code>&#x3C;cdk-user is-dpa="true">&#x3C;/cdk-user>
+</code></pre>
+
+<p>Mit Benachrichtigungen</p>
+
+<p><cdk-user notifications="5"></cdk-user></p>
+
+<pre><code>&#x3C;cdk-user notifications="5">&#x3C;/cdk-user>
+</code></pre>
+
+<p>Mit Kürzel</p>
+
+<p><cdk-user abbr="weg"></cdk-user></p>
+
+<pre><code>&#x3C;cdk-user abbr="weg">&#x3C;/cdk-user>
+</code></pre>
+
+<p>Mit Bild</p>
+
+<p><cdk-user src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"></cdk-user></p>
+
+<pre><code>&#x3C;cdk-user src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50">&#x3C;/cdk-user>
+</code></pre>
+</article><article class="hide doc source__diy" id="source-code"><pre class="source__code language-json"><code class="language-json">{
+  "hash": "fc551395c754bbe5e5481dfdad744becaf1fd596",
+  "url": "Akteure/Person/Nutzer",
+  "parent": {
+    "url": "Akteure/Person",
+    "title": "Person"
+  },
+  "children": [],
+  "title": "Nutzer",
+  "description": "Der Nutzer ist eine Person, die  dpa- und Fremdtools nutzt. Der Nutzer ist Marktplatz-Teilnehmer.\n",
+  "term": "User",
+  "authors": [],
+  "modified": 1553677120,
+  "version": "",
+  "tags": [
+    "Akteur",
+    "dpa"
+  ],
+  "synonyms": [
+    "Akteur",
+    "Kundin",
+    "User"
+  ],
+  "docs": [
+    {
+      "title": "nutzer",
+      "html": "&#x3C;dl>\n&#x3C;dt>&#x3C;img src=\"/api/v1/tree/Akteure/Person/Nutzer/nutzer.png\" alt=\"\" data-node=\"Akteure/Person/Nutzer\" data-node-asset=\"nutzer.png\" width=\"1480\" height=\"920\"/>&#x3C;/dt>\n&#x3C;/dl>\n\n&#x3C;p>::: tip Iterationssrichtung&#x3C;/p>\n\n&#x3C;ul>\n&#x3C;li>Unterscheidung Nutzer nicht dpa / Nutzer dpa-Mitarbeiter&#x3C;/li>\n&#x3C;li>Nutzer im Zusammenspiel mit Team&#x3C;/li>\n&#x3C;li>Wenn kein Bild da ist, wie wird Nutzer unterscheidbar dargestellt werden (Hintergrundfarbe, generierte Patterns, &#x26;hellip;)\n:::&#x3C;/li>\n&#x3C;/ul>\n\n&#x3C;h2>Beschreibung&#x3C;/h2>\n\n&#x3C;p>Der Nutzer ist ein Medien- oder Kommunikationsprofi mit einer &#x3C;a href=\"/api/v1/tree/Akteure/Person/connect-design-kit/glossar.html#dpa%C2%B7id\">dpa-ID&#x3C;/a>, der ein oder mehrere dpa-Tools oder andere über die dpa-ID erreichbare Tools nutzt.&#x3C;/p>\n\n&#x3C;p>Der Nutzer verfügt über eine &#x3C;strong>dpa-ID&#x3C;/strong>, d.h. eine Email und ein Passwort mit der er sich einloggen kann.  Der Nutzer\nist eventuell Teil eines Teams. Der Nutzer hat ein Bild oder eine Repräsentanz mit Kürzel. Der Nutzer hat einen Namen.&#x3C;/p>\n\n&#x3C;p>Der Nutzer ist in unterschiedlichen Rollen auf dem Marktplatz. Er ist als Person identifizierbar, damit er mit anderen identifizierbaren Personen, also Nutzern in Beziehung treten kann (Kommunizieren, Teilen, Kollaborieren) oder er kann mit Werteinheiten in Beziehung treten (kaufen, zum Kauf anbieten, Planen)&#x3C;/p>\n\n&#x3C;h2>Skizze&#x3C;/h2>\n\n&#x3C;p>&#x3C;img src=\"/api/v1/tree/Akteure/Person/Nutzer/nutzer-skizze.png\" alt=\"\" data-node=\"Akteure/Person/Nutzer\" data-node-asset=\"nutzer-skizze.png\" width=\"1480\" height=\"920\"/>&#x3C;/p>\n\n&#x3C;h2>Begründung für die Gestaltung&#x3C;/h2>\n\n&#x3C;h3>Runde Form&#x3C;/h3>\n\n&#x3C;p>Vorbild sind Twitter und Material Design. Insbesondere in Abgrenzung zu der eckigen Form von Tools, die auch als Farbe / Buchstabenkürzel vorliegen können&#x3C;/p>\n\n&#x3C;h3>Punkt&#x3C;/h3>\n\n&#x3C;p>Der Punkt signalisiert den Nutzer selbst, dass er sich mit der dpa ID angemeldet hat. Es ist nicht irgendein Nutzer, sondern ein Nutzer der dpa.&#x3C;/p>\n\n&#x3C;p>Stichworte: Markenbildung, Branding für dpa·ID, Bezug zur dpa durch die Farbe grün&#x3C;/p>\n\n&#x3C;h2>Ausprägung&#x3C;/h2>\n\n&#x3C;p>&#x3C;cdk-preview title=\"Nutzer ohne Bild\">&#x3C;/p>\n\n&#x3C;p>&#x3C;img src=\"/api/v1/tree/Akteure/Person/Nutzer/nutzer-mit-kuerzel-auspraegung.png\" alt=\"\" data-node=\"Akteure/Person/Nutzer\" data-node-asset=\"nutzer-mit-kuerzel-auspraegung.png\" width=\"1480\" height=\"1200\"/>&#x3C;/p>\n\n&#x3C;p>&#x3C;/cdk-preview>\n&#x3C;cdk-preview title=\"Nutzer mit Bild\">&#x3C;/p>\n\n&#x3C;p>&#x3C;img src=\"/api/v1/tree/Akteure/Person/Nutzer/nutzer-mit-bild-auspraegung.png\" alt=\"\" data-node=\"Akteure/Person/Nutzer\" data-node-asset=\"nutzer-mit-bild-auspraegung.png\" width=\"1480\" height=\"1200\"/>&#x3C;/p>\n\n&#x3C;p>&#x3C;/cdk-preview>&#x3C;/p>\n\n&#x3C;h2>Kontext&#x3C;/h2>\n\n&#x3C;p>&#x3C;cdk-preview title=\"bei Login\">&#x3C;/p>\n\n&#x3C;p>&#x3C;img src=\"/api/v1/tree/Akteure/Person/Nutzer/nutzer-mit-bild-login.png\" alt=\"\" data-node=\"Akteure/Person/Nutzer\" data-node-asset=\"nutzer-mit-bild-login.png\" width=\"1480\" height=\"920\"/>&#x3C;/p>\n\n&#x3C;p>&#x3C;/cdk-preview>\n&#x3C;cdk-preview title=\"ich selbst eingeloggt\">&#x3C;/p>\n\n&#x3C;p>&#x3C;img src=\"/api/v1/tree/Akteure/Person/Nutzer/nutzer-mit-bild-loggedin.png\" alt=\"\" data-node=\"Akteure/Person/Nutzer\" data-node-asset=\"nutzer-mit-bild-loggedin.png\" width=\"1480\" height=\"920\"/>&#x3C;/p>\n\n&#x3C;p>&#x3C;/cdk-preview>&#x3C;/p>\n\n&#x3C;p>&#x3C;cdk-preview title=\"in Kommunikation\">&#x3C;/p>\n\n&#x3C;p>&#x3C;img src=\"/api/v1/tree/Akteure/Person/Nutzer/nutzer-und-mitarbeiter-in-kommunikation.png\" alt=\"\" data-node=\"Akteure/Person/Nutzer\" data-node-asset=\"nutzer-und-mitarbeiter-in-kommunikation.png\" width=\"1480\" height=\"920\"/>&#x3C;/p>\n\n&#x3C;p>&#x3C;/cdk-preview>&#x3C;/p>\n\n&#x3C;h2>Ressourcen&#x3C;/h2>\n\n&#x3C;ul>\n&#x3C;li>&#x3C;a href=\"https://share.goabstract.com/dcd88ea2-85bf-4365-b9ff-b44239a9e70b\">Sketch-Datei in Abstract&#x3C;/a>&#x3C;/li>\n&#x3C;/ul>\n\n&#x3C;h2>OOUX-Draft&#x3C;/h2>\n\n&#x3C;ul>\n&#x3C;li>&#x3C;em>Nutzer&#x3C;/em>&#x3C;/li>\n&#x3C;li>Bild&#x3C;/li>\n&#x3C;li>Kürzel&#x3C;/li>\n&#x3C;li>Name&#x3C;/li>\n&#x3C;li>Rolle/Titel&#x3C;/li>\n&#x3C;li>Organisation&#x3C;/li>\n&#x3C;li>Gehört zu einem oder mehreren Teams&#x3C;/li>\n&#x3C;li>E-Mail / Passwort&#x3C;/li>\n&#x3C;/ul>\n\n&#x3C;h2>Code&#x3C;/h2>\n\n&#x3C;p>::: tip Proof of Concept\nDer Nutzer kann einfach als Web Komponente über CDN in\nbestehende Andwendungen eingebunden werden. Langfristig können Werteinheiten\nund Akteure von dpa-Connect als Module auf &#x3C;a href=\"https://www.npmjs.com/~dpa-connect\">npm&#x3C;/a>\nin Code bereit gestellt werden und von verschiedenen Applikationen konsumiert\nwerden.\n:::&#x3C;/p>\n\n&#x3C;h3>Einbindung als Web-Component&#x3C;/h3>\n\n&#x3C;p>Als zukunftsgerichtete und standardisierte Technologie ist der Nutzer\nexemplarisch als &#x3C;a href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components\">Web Component&#x3C;/a>\numgesetzt.&#x3C;/p>\n\n&#x3C;ul>\n&#x3C;li>&#x3C;a href=\"https://dpa-connect.github.io/web-components-example/\">Demo&#x3C;/a>&#x3C;/li>\n&#x3C;li>&#x3C;a href=\"https://github.com/dpa-connect/web-components-example/blob/master/index.html\">Code&#x3C;/a>&#x3C;/li>\n&#x3C;/ul>\n\n&#x3C;hr>\n\n&#x3C;p>Einbindung von des Codes über CDN.&#x3C;/p>\n\n&#x3C;pre>&#x3C;code>&#x26;lt;script src=&#x26;#34;https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js&#x26;#34;&#x26;gt;&#x26;lt;/script&#x26;gt;\n&#x26;lt;script src=&#x26;#34;https://unpkg.com/vue&#x26;#34;&#x26;gt;&#x26;lt;/script&#x26;gt;\n&#x26;lt;script src=&#x26;#34;https://unpkg.com/@dpa-connect/user@0.5.0/dist/cdk-user.min.js&#x26;#34;&#x26;gt;&#x26;lt;/script&#x26;gt;\n&#x3C;/code>&#x3C;/pre>\n\n&#x3C;h4>Eigenschaften&#x3C;/h4>\n\n&#x3C;p>| Name | Typ | Standardwert | Beschreibung |\n| &#x26;mdash;- | &#x26;mdash;- | &#x26;mdash;&#x26;mdash;- | &#x26;ndash; |\n| src | String | &#x26;ldquo; | Pfad zu Nutzerbild |\n| abbr | String | &#x26;rdquo; | Kürzel |\n| size | Number | 48 | Größe in Pixel |\n| isDpa | Boolean | false | Ist dpa Mitarbeiter |\n| notifications | Number | | Anzahl der Benachrichtigungen |&#x3C;/p>\n\n&#x3C;h4>Ausprägungen in Code&#x3C;/h4>\n\n&#x3C;p>Standard&#x3C;/p>\n\n&#x3C;p>&#x3C;cdk-user>&#x3C;/cdk-user>&#x3C;/p>\n\n&#x3C;pre>&#x3C;code>&#x26;lt;cdk-user&#x26;gt;&#x26;lt;/cdk-user&#x26;gt;\n&#x3C;/code>&#x3C;/pre>\n\n&#x3C;p>Nutzer ist dpa Mitarbeiter&#x3C;/p>\n\n&#x3C;p>&#x3C;cdk-user is-dpa=\"true\">&#x3C;/cdk-user>&#x3C;/p>\n\n&#x3C;pre>&#x3C;code>&#x26;lt;cdk-user is-dpa=&#x26;#34;true&#x26;#34;&#x26;gt;&#x26;lt;/cdk-user&#x26;gt;\n&#x3C;/code>&#x3C;/pre>\n\n&#x3C;p>Mit Benachrichtigungen&#x3C;/p>\n\n&#x3C;p>&#x3C;cdk-user notifications=\"5\">&#x3C;/cdk-user>&#x3C;/p>\n\n&#x3C;pre>&#x3C;code>&#x26;lt;cdk-user notifications=&#x26;#34;5&#x26;#34;&#x26;gt;&#x26;lt;/cdk-user&#x26;gt;\n&#x3C;/code>&#x3C;/pre>\n\n&#x3C;p>Mit Kürzel&#x3C;/p>\n\n&#x3C;p>&#x3C;cdk-user abbr=\"weg\">&#x3C;/cdk-user>&#x3C;/p>\n\n&#x3C;pre>&#x3C;code>&#x26;lt;cdk-user abbr=&#x26;#34;weg&#x26;#34;&#x26;gt;&#x26;lt;/cdk-user&#x26;gt;\n&#x3C;/code>&#x3C;/pre>\n\n&#x3C;p>Mit Bild&#x3C;/p>\n\n&#x3C;p>&#x3C;cdk-user src=\"https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50\">&#x3C;/cdk-user>&#x3C;/p>\n\n&#x3C;pre>&#x3C;code>&#x26;lt;cdk-user src=&#x26;#34;https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50&#x26;#34;&#x26;gt;&#x26;lt;/cdk-user&#x26;gt;\n&#x3C;/code>&#x3C;/pre>\n",
+      "raw": "![](./nutzer.png)\n\n::: tip Iterationssrichtung\n- Unterscheidung Nutzer nicht dpa / Nutzer dpa-Mitarbeiter\n- Nutzer im Zusammenspiel mit Team\n- Wenn kein Bild da ist, wie wird Nutzer unterscheidbar dargestellt werden (Hintergrundfarbe, generierte Patterns, ...)\n:::\n\n## Beschreibung\n\nDer Nutzer ist ein Medien- oder Kommunikationsprofi mit einer [dpa-ID](../connect-design-kit/glossar.html#dpa·id), der ein oder mehrere dpa-Tools oder andere über die dpa-ID erreichbare Tools nutzt.\n\nDer Nutzer verfügt über eine __dpa-ID__, d.h. eine Email und ein Passwort mit der er sich einloggen kann.  Der Nutzer\nist eventuell Teil eines Teams. Der Nutzer hat ein Bild oder eine Repräsentanz mit Kürzel. Der Nutzer hat einen Namen.\n\nDer Nutzer ist in unterschiedlichen Rollen auf dem Marktplatz. Er ist als Person identifizierbar, damit er mit anderen identifizierbaren Personen, also Nutzern in Beziehung treten kann (Kommunizieren, Teilen, Kollaborieren) oder er kann mit Werteinheiten in Beziehung treten (kaufen, zum Kauf anbieten, Planen)\n\n## Skizze\n![](./nutzer-skizze.png)\n\n## Begründung für die Gestaltung\n\n### Runde Form\nVorbild sind Twitter und Material Design. Insbesondere in Abgrenzung zu der eckigen Form von Tools, die auch als Farbe / Buchstabenkürzel vorliegen können\n\n### Punkt\nDer Punkt signalisiert den Nutzer selbst, dass er sich mit der dpa ID angemeldet hat. Es ist nicht irgendein Nutzer, sondern ein Nutzer der dpa.\n\nStichworte: Markenbildung, Branding für dpa·ID, Bezug zur dpa durch die Farbe grün\n\n## Ausprägung\n\n\n&#x3C;cdk-preview title=\"Nutzer ohne Bild\">\n\n![](./nutzer-mit-kuerzel-auspraegung.png)\n\n&#x3C;/cdk-preview>\n&#x3C;cdk-preview title=\"Nutzer mit Bild\">\n\n![](./nutzer-mit-bild-auspraegung.png)\n\n&#x3C;/cdk-preview>\n\n## Kontext\n\n&#x3C;cdk-preview title=\"bei Login\">\n\n![](./nutzer-mit-bild-login.png)\n\n&#x3C;/cdk-preview>\n&#x3C;cdk-preview title=\"ich selbst eingeloggt\">\n\n![](./nutzer-mit-bild-loggedin.png)\n\n&#x3C;/cdk-preview>\n\n&#x3C;cdk-preview title=\"in Kommunikation\">\n\n![](./nutzer-und-mitarbeiter-in-kommunikation.png)\n\n&#x3C;/cdk-preview>\n\n## Ressourcen\n\n- [Sketch-Datei in Abstract](https://share.goabstract.com/dcd88ea2-85bf-4365-b9ff-b44239a9e70b)\n\n## OOUX-Draft\n\n- *Nutzer*\n- Bild\n- Kürzel\n- Name\n- Rolle/Titel\n- Organisation\n- Gehört zu einem oder mehreren Teams\n- E-Mail / Passwort\n\n## Code\n\n::: tip Proof of Concept\nDer Nutzer kann einfach als Web Komponente über CDN in\nbestehende Andwendungen eingebunden werden. Langfristig können Werteinheiten\nund Akteure von dpa-Connect als Module auf [npm](https://www.npmjs.com/~dpa-connect)\nin Code bereit gestellt werden und von verschiedenen Applikationen konsumiert\nwerden.\n:::\n\n### Einbindung als Web-Component\n\nAls zukunftsgerichtete und standardisierte Technologie ist der Nutzer\nexemplarisch als [Web Component](https://developer.mozilla.org/en-US/docs/Web/Web_Components)\numgesetzt.\n\n- [Demo](https://dpa-connect.github.io/web-components-example/)\n- [Code](https://github.com/dpa-connect/web-components-example/blob/master/index.html)\n\n---\n\nEinbindung von des Codes über CDN.\n\n    &#x3C;script src=\"https://unpkg.com/@webcomponents/webcomponentsjs@2.0.0/webcomponents-loader.js\">&#x3C;/script>\n    &#x3C;script src=\"https://unpkg.com/vue\">&#x3C;/script>\n    &#x3C;script src=\"https://unpkg.com/@dpa-connect/user@0.5.0/dist/cdk-user.min.js\">&#x3C;/script>\n\n#### Eigenschaften\n\n| Name | Typ | Standardwert | Beschreibung |\n| ---- | ---- | ------- | -- |\n| src | String | '' | Pfad zu Nutzerbild |\n| abbr | String | '' | Kürzel |\n| size | Number | 48 | Größe in Pixel |\n| isDpa | Boolean | false | Ist dpa Mitarbeiter |\n| notifications | Number | | Anzahl der Benachrichtigungen |\n\n#### Ausprägungen in Code\n\nStandard\n\n&#x3C;cdk-user>&#x3C;/cdk-user>\n    &#x3C;cdk-user>&#x3C;/cdk-user>\n\nNutzer ist dpa Mitarbeiter\n\n&#x3C;cdk-user is-dpa=\"true\">&#x3C;/cdk-user>\n    &#x3C;cdk-user is-dpa=\"true\">&#x3C;/cdk-user>\n\nMit Benachrichtigungen\n\n&#x3C;cdk-user notifications=\"5\">&#x3C;/cdk-user>\n    &#x3C;cdk-user notifications=\"5\">&#x3C;/cdk-user>\n\nMit Kürzel\n\n&#x3C;cdk-user abbr=\"weg\">&#x3C;/cdk-user>\n    &#x3C;cdk-user abbr=\"weg\">&#x3C;/cdk-user>\n\nMit Bild\n\n&#x3C;cdk-user src=\"https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50\">&#x3C;/cdk-user>\n    &#x3C;cdk-user src=\"https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50\">&#x3C;/cdk-user>\n\n"
+    }
+  ],
+  "downloads": [
+    {
+      "url": "Akteure/Person/Nutzer/D2B97838-39BA-403B-A5C6-F485E8226362.png",
+      "name": "D2B97838-39BA-403B-A5C6-F485E8226362.png",
+      "modified": 1553523218,
+      "size": 54780
+    },
+    {
+      "url": "Akteure/Person/Nutzer/logged-in-with-notification.png",
+      "name": "logged-in-with-notification.png",
+      "modified": 1553523218,
+      "size": 1002246
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer-mit-bild-auspraegung.png",
+      "name": "nutzer-mit-bild-auspraegung.png",
+      "modified": 1553523218,
+      "size": 222974
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer-mit-bild-loggedin.png",
+      "name": "nutzer-mit-bild-loggedin.png",
+      "modified": 1553523218,
+      "size": 458991
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer-mit-bild-login.png",
+      "name": "nutzer-mit-bild-login.png",
+      "modified": 1553523218,
+      "size": 72220
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer-mit-bild.png",
+      "name": "nutzer-mit-bild.png",
+      "modified": 1553523218,
+      "size": 93997
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer-mit-kuerzel-auspraegung.png",
+      "name": "nutzer-mit-kuerzel-auspraegung.png",
+      "modified": 1553523218,
+      "size": 117079
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer-mit-kuerzel.png",
+      "name": "nutzer-mit-kuerzel.png",
+      "modified": 1553523218,
+      "size": 77834
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer-skizze.png",
+      "name": "nutzer-skizze.png",
+      "modified": 1553523218,
+      "size": 80018
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer-und-mitarbeiter-in-kommunikation.png",
+      "name": "nutzer-und-mitarbeiter-in-kommunikation.png",
+      "modified": 1553523218,
+      "size": 165515
+    },
+    {
+      "url": "Akteure/Person/Nutzer/nutzer.png",
+      "name": "nutzer.png",
+      "modified": 1553523218,
+      "size": 74127
+    },
+    {
+      "url": "Akteure/Person/Nutzer/slack.png",
+      "name": "slack.png",
+      "modified": 1553523218,
+      "size": 240417
+    }
+  ],
+  "crumbs": [
+    {
+      "url": "Akteure",
+      "title": "Akteure"
+    },
+    {
+      "url": "Akteure/Person",
+      "title": "Person"
+    },
+    {
+      "url": "Akteure/Person/Nutzer",
+      "title": "Nutzer"
+    }
+  ],
+  "related": [],
+  "prev": {
+    "url": "Akteure/Person/Mitarbeiter",
+    "title": "Mitarbeiter"
+  },
+  "next": {
+    "url": "Akteure/Team",
+    "title": "Team"
+  }
+}</code></pre><a href="https://github.com/atelierdisko/dsk/tree/master#building-your-own-frontend" target="new">Build your own frontend</a></article></section></section><aside class="downloads"><h1 class="downloads__headline t-delta-sans-bold">assets</h1><ul><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/D2B97838-39BA-403B-A5C6-F485E8226362.png"><div class="downloads__item-title">D2B97838-39BA-403B-A5C6-F485E8226362.png</div><p class="downloads__item-info t-gamma-sans">0.53 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/logged-in-with-notification.png"><div class="downloads__item-title">logged-in-with-notification.png</div><p class="downloads__item-info t-gamma-sans">9.79 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer-mit-bild-auspraegung.png"><div class="downloads__item-title">nutzer-mit-bild-auspraegung.png</div><p class="downloads__item-info t-gamma-sans">2.18 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer-mit-bild-loggedin.png"><div class="downloads__item-title">nutzer-mit-bild-loggedin.png</div><p class="downloads__item-info t-gamma-sans">4.48 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer-mit-bild-login.png"><div class="downloads__item-title">nutzer-mit-bild-login.png</div><p class="downloads__item-info t-gamma-sans">0.71 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer-mit-bild.png"><div class="downloads__item-title">nutzer-mit-bild.png</div><p class="downloads__item-info t-gamma-sans">0.92 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer-mit-kuerzel-auspraegung.png"><div class="downloads__item-title">nutzer-mit-kuerzel-auspraegung.png</div><p class="downloads__item-info t-gamma-sans">1.14 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer-mit-kuerzel.png"><div class="downloads__item-title">nutzer-mit-kuerzel.png</div><p class="downloads__item-info t-gamma-sans">0.76 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer-skizze.png"><div class="downloads__item-title">nutzer-skizze.png</div><p class="downloads__item-info t-gamma-sans">0.78 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer-und-mitarbeiter-in-kommunikation.png"><div class="downloads__item-title">nutzer-und-mitarbeiter-in-kommunikation.png</div><p class="downloads__item-info t-gamma-sans">1.62 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/nutzer.png"><div class="downloads__item-title">nutzer.png</div><p class="downloads__item-info t-gamma-sans">0.72 MB — 1/19/1970</p></a></li><li class="downloads__item t-gamma-sans-bold"><a href="/design-kit/Akteure/Person/Nutzer/slack.png"><div class="downloads__item-title">slack.png</div><p class="downloads__item-info t-gamma-sans">2.35 MB — 1/19/1970</p></a></li></ul></aside></main>
+    </div>
+  
+
+</body></html>

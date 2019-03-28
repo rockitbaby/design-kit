@@ -1,3 +1,5 @@
+![](Cover.png)
+
 ## Beschreibung
 Text ist ein Inhalt und damit eine journalistische Werteinheiten der dpa oder anderer Anbieter, er ist Bestandteil eines Nachrichtenstücks. Ein Text wird zur Publikation oder zu Informationszwecken angeboten. 
 Text liegt in unterschiedlichen Genres vor und hat eine dem jeweiligen Genre entsprechende Gestalt.
@@ -10,6 +12,7 @@ Die wichtigsten Genres sind:
 * Frage & Antwort
 * Vorschau
 
+![](Scribble.png)
 
 ## Iterationsrichtung
 * Text als Versprechen (geplant) und Text manifest (gesendet) visuell und strukturell unterscheiden

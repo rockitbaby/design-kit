@@ -1,14 +1,17 @@
+![](Cover.png)
+
 ## Beschreibung
 Audio  ist ein Inhalt und damit eine journalistische Werteinheiten der dpa oder anderer Anbieter, es ist Bestandteil eines Nachrichtenstücks. Ein Audio wird zur Publikation oder zu Informationszwecken angeboten. 
 
+![](Scribble.png)
 
-## Iterationsrichtung
-* Audio als Versprechen (geplant) und Audio manifest (gesendet) visuell unterschieden
-
+![](Planned.png)
+_Audio, geplant bis 16:30_
 
 ## Ausprägung
-* im Zustand des Versprechens (Planung), gesendet (manifestiert.)
-*  Minimalform
+* ☑️im Zustand des Versprechens (Planung)
+* ☑️ gesendet (manifestiert.)
+* ☑️ Minimalform
 * in Liste 
 * als Detailansicht
 
@@ -21,7 +24,9 @@ Audio  ist ein Inhalt und damit eine journalistische Werteinheiten der dpa oder 
 
 
 ## OOUX-Draft
+
 **Audio**
-?
+
+- 
 
 
